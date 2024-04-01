@@ -1,0 +1,370 @@
+1.	FIX THE ERROR
+ 
+ <html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+        </title>
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+ 
+From <https://github.com/rvsp/HTML-CSS/blob/master/Mini-tasks/001-HTML.md> 
+ 
+ANSWER
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        guvi
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </div>
+    </div>
+ 
+2.	Fix the Error
+ 
+<html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+ 
+From <https://github.com/rvsp/HTML-CSS/blob/master/Mini-tasks/001-HTML.md> 
+ 
+Answer:
+ 
+<html lang="en">
+    <head>
+        <title>Document</title>
+          </head>
+<body>
+<div>Guvi</div> 
+ 
+<div>  Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+ 
+<div>Guvi Geek Network</div>
+ 
+   </body>
+    </html>
+ 
+
+3.Create a Contact Form:
+ 
+ 
+ HTML CODE:
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <h1>Contact Form</h1>
+        <div class="firstname">
+            First name
+            <input type="text" id="one" placeholder="Enter the first name">
+        </div>
+        <div class="lastname">
+            <label>Last name</label>
+            <input type="text" id="two" placeholder="Enter the last name">
+        </div>
+        <label for="county">Choose the country</label>
+        <select class="country">
+            <option value="Australia">Australia</option>
+            <option value="India">India</option>
+            <option value="England">England</option>
+            <option value="South Africa">South Africa</option>
+        </select>
+        <div class="contact-number">
+            Contact Number
+            <input type="text" id="three" placeholder="enter the mobile number">
+        </div>
+        <div class="btn">
+            <button type="submit" id="sumbit">submit</button>
+        </div>
+    </div>
+</body>
+</html>
+ 
+CSS-CODE:
+*
+{
+    margin:0px;
+    padding:0px;
+}
+h1
+{
+    text-align: center;
+    color:black;
+    margin-bottom: 20px;
+}
+.form
+{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 25px;
+    margin: 100px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    
+   
+}
+ 
+ 
+input,select
+{
+   
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-color: none;
+    border:none;
+    padding: 15px;
+    width: 100%;
+    margin: 10px;
+}
+button
+{
+    margin-top: 20px;
+    width: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(245, 248, 63);
+    cursor: pointer;
+    
+}
+button:hover
+{
+    background-color:greenyellow;
+ 
+ 
+}
+
+
+
+4.
+HTML elements to display the following in a HTML page.
+ 
+From <https://github.com/rvsp/HTML-CSS/blob/master/Mini-tasks/001-HTML.md> 
+
+ 
+HTML CODE:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo HTML </title>
+</head>
+<body>
+    <div class="container" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+        <ul id="pl-db">
+            <li id="programming-language">Programming-Language
+                <ul id="languages">
+                    <li id="javascript">Javascript
+                        <ol id="js-frameworks" type="a">
+                            <li>Angular</li>
+                            <li>React</li>
+                            <li>Vue.js</li>
+                        </ol>
+                    </li>
+                    <li id="Python">Python
+                        <ol id="python-frameworks" type="a">
+                            <li>Django Framework</li>
+                            <li>Flash</li>
+                        </ol>
+                    </li>
+                    <li id="java">Java
+                        <ol id="java-frameworks" type="a">
+                            <li>Spring</li>
+                            <li>Maven</li>
+                            <li>Hibernate</li>
+                </ul>
+            </li>
+            <li id="Database">Database
+                <ul id="database">
+                    <li>MySQL</li>
+                    <li>MongoDB</li>MongoDB
+                    <li>Cansandra</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
+
+
+5.Create an element that helps you to open the https://google.com in separate new tab.
+
+HTML CODE:
+ <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjoneL2gKGFAxX3xDgGHS9_BYUQPAgJ">Google</a>
+ 
+//Anchor tag is used to link to any website provided we have give the URL.
+
+OUTPUT
+
+ 
+
+6.RADIO BUTTON
+ 
+HTML CODE:
+
+<div class="form">
+       <label for="employee Type">Employee Type</label>
+       <input type="radio" name="employeetype" id="salaryid" value="1">Salary
+       <input type="radio" name="employeetype" id="ownbusinessid" value="2">Own Business
+       
+      </div>
+
+/8. Use the table tag to design given image
+ 
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    td, th{
+        min-width: 115px;
+    }
+    </style>
+    <title>Tables</title>
+</head>
+<body>
+    <table border="5" bordercolor="green">
+        <tr>
+            <th>State of Health</th>
+            <th colspan="2">Fasting Value
+                <table>
+                    <tr>
+                        <th colspan="1">Minimum</th>
+                        <th colspan="1">Maximum</th>
+                    </tr>
+                </table>    
+            </th>
+            <th colspan="1">After eating
+                <table>
+                    <tr>
+                        <td>2 hours after eating</td>
+                    </tr>
+                </table>
+            </th>
+        </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>    
+    </table>
+</body>
+</html>
+
+
+//9. Write HTML input tags snippet to show default values for all Form elements.
+Output: 
+ 
+
+<body>
+    <form action="https:\\google.com" method="GET">
+        <label for="first_name">First Name : </label>
+        <input type="text" placeholder="First Name" value="first"/>
+        <br>
+        <label for="last_name">Last Name : </label>
+        <input type="text" placeholder="Last Name" value="last"/>
+        <br>
+        <label for="DOB">DOB : </label>
+        <input type="date" placeholder="Date of birth" value="01/01/2999"/>
+        <br>
+        <label for="Address">Address : </label>
+        <textarea cols="30" rows="5" name="address_details" placeholder="Enter your full address here"></textarea>
+        <button name="submit">Submit the form</button>
+        <br>
+        <div>
+            <label for="employee_type">Employee Type :</label>
+            <input type="radio" name="sal">Salaried</input>
+            <input type="radio" name="self">Self employed</input>
+        </div>
+    </form>
+</body>
+
+//10. In your, HTML page add the below line and Highlight it without using any CSS.
+ "HTML & CSS is awesome"
+Output:  
+HTML:Code
+ <div>
+    <mark>HTML & CSS is awesome</mark> </div>
+11. Create an HTML page, which should contain all types of input elements.
+
+  
+HTML CODE:
+<div>
+	        <ul>Types of Inputs
+	            <li><input type="button" value="button"/></li>
+	            <li>Checkbox<input type="checkbox" value=""/></li>
+	            <li>Color<input type="color"/></li>
+	            <li>Date<input type="date"/></li>
+	            <li>datetime<input type="datetime"/></li>
+	            <li>datetime-local<input type="datetime-local"/></li>
+	            <li>email<input type="email"/></li>
+	            <li>file<input type="file"/></li>
+	            <li>image<input type="image"/></li>
+	            <li>hidden<input type="hidden"/></li>
+	            <li>month<input type="month"/></li>
+	            <li>password<input type="password"/></li>
+	            <li>radio:<input type="radio"/></li>
+	            <li>reset<input type="reset"/></li>
+	            <li>range<input type="range"/></li>
+	            <li>search<input type="search"/></li>
+	            <li>text<input type="text"/></li>
+	            <li>url<input type="url"/></li>
+	            <li>week<input type="week"/></li>
+	            <li>tel<input type="tel"/></li>
+	        </ul>
+	    </div>
+
+
+
